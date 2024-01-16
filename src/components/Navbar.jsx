@@ -11,7 +11,8 @@ function Navbar() {
   };
 
   return (
-    <nav className=" flex-wrap shadow-lg">
+    <nav className=" flex-wrap shadow-lg md:flex md:justify-center">
+      <div className="md:w-[800px] ">
       <div className="flex flex-row justify-between items-center h-20 px-8">
         <div className="logo flex flex-row gap-2">
           <img src={wave} alt="logo image" className="w-6" />
@@ -41,6 +42,7 @@ function Navbar() {
               <a href=""><li>Contact Me</li></a>
             </ul>
         )}
+      </div>
       </div>
     </nav>
   );
