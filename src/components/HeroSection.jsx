@@ -3,6 +3,7 @@ import profileimg from "../assets/profile_img.jpg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
+import { FiArrowDownCircle } from "react-icons/fi";
 
 function HeroSection() {
   return (
@@ -23,7 +24,10 @@ function HeroSection() {
         </div>
 
         <div className="mt-6 md:mt-8 flex flex-col w-ful gap-4 md:gap-7">
-          <button className=" bg-black  text-white p-3 rounded-3xl">Contact me</button>
+          <div className="flex flex-row items-center justify-center gap-8">
+          <button className=" bg-black  text-white py-3 px-8 rounded-3xl">Contact me</button>
+          <button className="flex flex-row items-center gap-2 bg-black  text-white p-3 rounded-full">CV <FiArrowDownCircle /></button>
+          </div>
           <div className="flex flex-row items-center justify-center gap-8 ">
             <button className="bg-white p-3 rounded-full">
               <FaLinkedin/>
