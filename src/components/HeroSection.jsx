@@ -3,6 +3,7 @@ import profileimg from "../assets/profile_img.jpg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
+import { FiArrowDownCircle } from "react-icons/fi";
 
 function HeroSection() {
   return (
@@ -23,7 +24,9 @@ function HeroSection() {
         </div>
 
         <div className="mt-6 md:mt-8 flex flex-col w-ful gap-4 md:gap-7">
-          <a href="mailto:contact.samitha@gmail.com" className=" bg-black  text-white p-3 rounded-3xl flex items-center justify-center mx-8">Contact me</a>
+
+          <a href="mailto:contact.samitha@gmail.com" className=" bg-black  text-white p-3 rounded-3xl flex items-center justify-center mx-8">Contact me</a>    
+
           <div className="flex flex-row items-center justify-center gap-8 ">
             <a href="https://www.linkedin.com/in/samitha-wickramasinghe/" target="_blank">
             <button className="bg-white p-3 rounded-full">
