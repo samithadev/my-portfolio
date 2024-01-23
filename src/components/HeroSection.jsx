@@ -6,7 +6,7 @@ import { FaDribbble } from "react-icons/fa";
 
 function HeroSection() {
   return (
-    <div className=" mx-9 my-6 flex flex-col md:flex-row md:gap-5 justify-center">
+    <div id="home" className=" mx-9 my-6 flex flex-col md:flex-row md:gap-5 justify-center">
       <div className="hero-image w-full h-80 md:w-[400px] md:h-[400px]  rounded-3xl overflow-hidden bg-red-500 mt-6">
         <img src={profileimg} alt="profile img" />
       </div>
@@ -23,17 +23,23 @@ function HeroSection() {
         </div>
 
         <div className="mt-6 md:mt-8 flex flex-col w-ful gap-4 md:gap-7">
-          <button className=" bg-black  text-white p-3 rounded-3xl">Contact me</button>
+          <a href="mailto:contact.samitha@gmail.com" className=" bg-black  text-white p-3 rounded-3xl flex items-center justify-center mx-8">Contact me</a>
           <div className="flex flex-row items-center justify-center gap-8 ">
+            <a href="https://www.linkedin.com/in/samitha-wickramasinghe/" target="_blank">
             <button className="bg-white p-3 rounded-full">
               <FaLinkedin/>
             </button>
+            </a>
+            <a href="https://github.com/samithadev" target="_blank">
             <button className="bg-white p-3 rounded-full">
               <FaGithub />
             </button>
+            </a>
+            <a href="" target="_blank">
             <button className="bg-white p-3 rounded-full">
               <FaDribbble />
             </button>
+            </a>
           </div>
         </div>
       </div>
