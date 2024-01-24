@@ -7,7 +7,7 @@ import { FaDribbble } from "react-icons/fa";
 function HeroSection() {
   return (
     <div id="home" className=" mx-9 my-6 flex flex-col md:flex-row md:gap-5 justify-center">
-      <div className="hero-image w-full h-80 md:w-[400px] md:h-[400px]  rounded-3xl overflow-hidden bg-red-500 mt-6">
+      <div className="hero-image w-full h-80 md:w-[400px] md:h-[400px]  rounded-3xl overflow-hidden">
         <img src={profileimg} alt="profile img" />
       </div>
 
