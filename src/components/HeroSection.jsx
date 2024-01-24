@@ -7,12 +7,12 @@ import { FiArrowDownCircle } from "react-icons/fi";
 
 function HeroSection() {
   return (
-    <div id="home" className=" mx-9 my-6 flex flex-col md:flex-row md:gap-5 justify-center">
+    <div id="home" className=" mx-9 my-6 flex flex-col gap-5 md:flex-row md:gap-5 justify-center">
       <div className="hero-image w-full h-80 md:w-[400px] md:h-[400px]  rounded-3xl overflow-hidden">
         <img src={profileimg} alt="profile img" />
       </div>
 
-      <div className="hero-details mt-6 md:w-[400px] md:h-[400px] rounded-3xl p-8 bg-gradient-to-r from-yellow-100  to-yellow-50 background-animate backdrop-blur-2xl">
+      <div className="hero-details md:w-[400px] md:h-[400px] rounded-3xl p-8 bg-gradient-to-r from-yellow-100  to-yellow-50 background-animate backdrop-blur-2xl">
         <div>
           <h1 className=" text-2xl font-medium leading-7">
             Hello, I’m Samitha, a frontend Developer specialized in React.
