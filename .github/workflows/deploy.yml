@@ -36,7 +36,7 @@ jobs:
           node-version: 18
           cache: 'npm'
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: npm install --prefix /home/runner/work/samithadev/my-portfolio
       - name: Build
         run: npm run build
       - name: Setup Pages
