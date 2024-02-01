@@ -2,10 +2,10 @@ import React from "react";
 import img1 from "../assets/img1.jpg";
 import { FaGithub } from "react-icons/fa";
 import live_icon from "../assets/live-icon.json";
-import blog from '../assets/dev_blog.png'
-import img2 from '../assets/agency_web1.png'
-import img3 from '../assets/AT-digital_web.png'
-import img4 from '../assets/travel-agency-web.png'
+import blog from "../assets/dev_blog.png";
+import img2 from "../assets/agency_web1.png";
+import img3 from "../assets/AT-digital_web.png";
+import img4 from "../assets/travel-agency-web.png";
 
 import Lottie from "lottie-react";
 
@@ -15,25 +15,25 @@ function ProjectCards() {
       title: "Blogging Platform for Developers",
       image: blog,
       github: "https://github.com/samithadev/mern_blog",
-      live: ""
+      live: "",
     },
     {
       title: "Aversan delivers: Agency Website",
       image: img2,
-      github: "https://github.com/samithadev",
-      live: "https://65afabe2701e0c00921d5727--loquacious-malasada-0659e5.netlify.app/"
+      github: "https://github.com/samithadev/Avero_Business_Website",
+      live: "https://samithadev.github.io/Avero_Business_Website/",
     },
     {
       title: "AT-Digital Digital Marketing Agency WebSite",
       image: img3,
       github: "https://github.com/samithadev/AT_Digital",
-      live: "https://at-digital-samitha.netlify.app/"
+      live: "https://at-digital-samitha.netlify.app/",
     },
     {
       title: "Travel agency Website",
       image: img4,
       github: "https://github.com/samithadev/travel_agency_Site",
-      live: "https://travel-agency-site.vercel.app/"
+      live: "https://travel-agency-site.vercel.app/",
     },
   ];
 
@@ -54,9 +54,12 @@ function ProjectCards() {
               <div className="flex gap-5 pt-5 px-5">
                 <div>
                   <a href={items.github} target="_blank">
-                  <button className="bg-white p-2 rounded-full" formTarget="_blank">
-                    <FaGithub size={20} />
-                  </button>
+                    <button
+                      className="bg-white p-2 rounded-full"
+                      formTarget="_blank"
+                    >
+                      <FaGithub size={20} />
+                    </button>
                   </a>
                 </div>
                 <div className="w-[60px]">
