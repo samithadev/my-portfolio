@@ -38,16 +38,16 @@ function ProjectCards() {
   ];
 
   return (
-    <div id="projects" className=" flex xl:items-center xl:justify-center">
-      <div className="flex flex-col  gap-5 md:grid md:grid-cols-2 mx-9 my-6 xl:w-[800px]">
+    <div id="projects" className=" flex md:items-center md:justify-center">
+      <div className="grid grid-cols-1  gap-5 md:grid md:grid-cols-2 mx-9 my-6 md:w-[800px]">
         {projects.map((items) => (
-          <div className="relative w-full  md:h-[400px] overflow-hidden rounded-2xl shadow-lg group ">
+          <div className="relative w-full h-80 md:w-full overflow-hidden rounded-2xl cursor-pointer shadow-xl group">
             <img
               src={items.image}
               alt="projimg"
-              className=" transition-transform group-hover:scale-110 duration-300 ease-in-out"
+              className=" object-cover transition-transform group-hover:scale-110 duration-700 ease-in-out"
             />
-            <div className="absolute inset-0 flex flex-row justify-between">
+            <div className="absolute inset-0 flex flex-row justify-between bg-gradient-to-t from-gray-900 to-50% ">
               <div className=" flex items-end pb-10 pl-5">
                 <h1 className=" text-white font-bold text-xl">{items.title}</h1>
               </div>
