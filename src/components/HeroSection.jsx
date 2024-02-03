@@ -13,7 +13,7 @@ function HeroSection() {
           <img className=" object-cover" src={profileimg} alt="profile img" />
         </div>
 
-        <div className="hero-details md:w-full md:h-full rounded-3xl p-8 bg-gradient-to-r from-yellow-100  to-yellow-50 background-animate backdrop-blur-2xl">
+        <div className="hero-details md:w-full md:h-full rounded-3xl p-8 bg-gradient-to-t from-indigo-200 via-purple-200 to-pink-200 background-animate backdrop-blur-3xl">
           <div>
             <h1 className=" text-2xl font-medium leading-7">
               Hello, I’m Samitha, a frontend Developer specialized in React.
